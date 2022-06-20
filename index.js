@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 
 let range = 1000
-const bot = new Telegraf("Telegram bot token")
+const bot = new Telegraf("5446372357:AAF2Yg5oFQ0utgK1iZ-5NvOUAFxSre3tTxs")
 bot.start((ctx) => ctx.reply('1000-7?'))
 bot.hears(`sf banned`, (ctx) => {
     ctx.reply(`${range}`)
