@@ -5,7 +5,7 @@ const bot = new Telegraf("5446372357:AAF2Yg5oFQ0utgK1iZ-5NvOUAFxSre3tTxs")
 bot.start((ctx) => ctx.reply('1000-7?'))
 bot.hears(`hi`, (ctx) => {
     ctx.reply(`${range}`)
-    range = range - 77
+    range = range - 72
 })
 bot.launch()
 
